@@ -1,0 +1,25 @@
+#caja4{
+	width: 900px;
+	height: 400px;
+	background: black;
+}
+
+/*all(se aplica a todos)   print(cuadros de texto y archivos)    screen(pantallas)   buscar las media types     
+cuando no ponemos un mediatype va a aplicar el de default que es el all*/
+
+/*estilos Para tablets*/
+@media only screen and (min-width: 768px) and (max-height: 940px){
+	#caja4{
+	width:600px;
+	background: red;
+    }
+}
+
+/*estilos para smarthphones*/
+@media only screen and (min-width: 400px) and (max-height: 767px){
+	#caja4{
+	width:400px;
+	background: green;
+	border-spacing: none;
+    }
+}

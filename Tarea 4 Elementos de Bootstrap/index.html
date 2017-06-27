@@ -1,0 +1,336 @@
+<!--10 elemntos de bootstrap-->
+<!--Navbar Inverted navbar (Color de la barra de navegacion)-->
+<!--Pagination Disabled and active states (Navegacion de paginas)-->
+<!--BADGES Adapts to active nav states (Numero que aparece al lado del Inicio y Mensajes)-->
+<!--Thumbnails Custom content (Miniatura con informacion)-->
+<!--List group Badges (Lista de mensajes)-->
+<!--Responsive embed (Video)-->
+<!--Wells Default well-->
+<!--Media object Media list  (Parte de los comentarios)-->
+<!--Input groups Basic example  (Inicio de sesion)-->
+<!--Buttons addons  (Buscar)-->
+<!--Breadcrumbs (Ubucacion en la pagina)-->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Elementos de Bootstrap 3</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+<!--Inicio del Navbar-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mi logo</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav nav nav-pills" role="tablist">
+        <li role="presentation" class="active"><a href="#">Inicio<span class="badge">42</span></a></li>
+        <li role="presentation"><a href="#">Perfil</a></li>
+        <li role="presentation"><a href="#">Mensajes<span class="badge">3</span></a></li>
+      </ul>
+      <form class="navbar-form navbar-right">
+      
+        <button type="submit" class="btn btn-default">Salir</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Una pagina mas</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--Fin del navbar-->
+
+
+<!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action <span class="caret"></span>
+  </button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  </div>
+  <div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Boton primario <span class="caret"></span>
+  </button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  </div>
+   <div class="btn-group">
+  <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Boton de success <span class="caret"></span>
+  </button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  </div>
+   <div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Boton de informacion <span class="caret"></span>
+  </button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  </div>
+   <div class="btn-group">
+  <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Boton de alerta <span class="caret"></span>
+  </button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  </div>
+   <div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Boton de peligro <span class="caret"></span>
+  </button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  </div>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+<!--Fin del single buttom-->
+
+
+<!--Lista de mensajes-->
+<div class="mensajes">
+<h5>Mensajes</h5>
+<ul class="list-group">
+  <li class="list-group-item active">
+    <span class="badge">14</span>
+    Esmeralda
+  </li>
+  <li class="list-group-item">
+    <span class="badge">1</span>
+    Daniel
+  </li>
+  <li class="list-group-item">
+    <span class="badge">25</span>
+    Miguel
+  </li>
+  <li class="list-group-item">
+    <span class="badge">10</span>
+    Fernanda
+  </li>
+</ul>
+</div>
+<!--Fin lista de mansajes--> 
+
+<!--Ubicacion-->
+<div>
+<ol class="breadcrumb">
+  <li><a href="#">Inicio</a></li>
+  <li><a href="#">Artista</a></li>
+  <li class="active">Alan Walker</li>
+</ol>
+</div>
+
+
+
+<!--Inicio de sesion-->
+<br><br>
+<h4>Inicio de sesion</h4>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Usuario" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Correo" aria-describedby="basic-addon2">
+</div>
+
+
+<!--Imagen con texto-->
+<br><br><br><br><br><br>
+<div class="row cuadrotexto">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/img2.jpg" width="200px" height="200px">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Información</a> <a href="#" class="btn btn-default" role="button">Otros</a></p>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/img2.jpg" width="200px" height="200px">
+      <div class="caption">
+        <h3>Thumbnail label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Información</a> <a href="#" class="btn btn-default" role="button">Otros</a></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<!--Cuadro de texto (Well)-->
+<br><br><br>
+<center>
+<div class="well letra">Alan Walker!!!!</div>
+</center>
+
+
+<!--Video-->
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1-xGerv5FOk"></iframe>
+</div>
+
+
+<br><br><br><br>
+<!--Comentarios-->
+<div>
+<h3>Comentarios</h3><br>
+  <ul class="media-list">
+  <li class="media">
+    <div class="media-left">
+      <a href="#">
+        <img class="media-object" src="img/img.jpg" width="150px" height="150px">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Usuario1</h4>
+      <div class="well letra2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+  </li>
+
+  <li class="media">
+    <div class="media-left">
+      <a href="#">
+        <img class="media-object" src="img/img1.jpg" width="150px" height="150px">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Usuario2</h4>
+      <div class="well letra2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+  </li>
+
+  <li class="media">
+    <div class="media-left">
+      <a href="#">
+        <img class="media-object" src="img/img3.jpg" width="150px" height="150px">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">Usuario3</h4>
+      <div class="well letra2">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+  </li>
+</ul>
+</div>
+<!--FIn de comentarios-->
+
+
+
+
+<!--Buscar-->
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Ir!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Buscar...">
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!--Navegacion de pagina-->
+<nav aria-label="Page navigation" class="izq">
+  <ul class="pagination">
+    <li class="disabled">
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+
+    <li class="active"><a href="#">1<span class="sr-only"></span></a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+</body>
+<script>src="js/jquery-3.2.1.js"</script>
+<script>src="js/bootstrap.js"</script>
+</html>

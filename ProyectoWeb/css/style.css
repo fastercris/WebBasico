@@ -1,0 +1,103 @@
+.titulo{
+	color: #AD0073;
+	margin: 25px 200px;
+	text-align: center;
+	font-size: 25px;
+	width: 70%;
+	height: 10%;
+	padding:1px 0px;
+}
+
+.musica{
+	font-family: 'Frijole', cursive;
+font-family: 'Patrick Hand SC', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+}
+
+body{
+	background-color: #85E7DC;
+font-family: 'Frijole', cursive;
+font-family: 'Patrick Hand SC', cursive;
+}
+
+.icono{
+	width: 35px;
+	height: 35px;
+}
+
+.espacio{
+	margin-bottom: 0px;
+}
+
+.miniatura{
+	width: 200px;
+	height: 200px;
+}
+
+.m1{
+	position: absolute;
+	left: 100px;
+}
+
+.m2{
+	position: absolute;
+	left: 420px;
+}
+
+.m3{
+	position: absolute;
+	left: 750px;
+}
+
+.m4{
+	position: absolute;
+	left: 1050px;
+}
+
+.footer{
+	background-color: black;
+	padding:10px 623px 10px 623px;
+	text-align: center;
+	position: relative;
+	top: 250px;
+}
+
+li{
+	display: inline;
+}
+
+p{
+	text-align: justify;
+}
+
+.video{
+	position: relative;
+	left: 600px;
+	top: 400px
+}
+
+.cuadro{
+	position: absolute;
+	top: 400px
+}
+
+.cuadro2{
+	position: absolute;
+	top: 1250px
+}
+
+.cuadro3{
+	position: absolute;
+	top: 2050px
+}
+
+.cuadro4{
+	position: absolute;
+	top: 2850px
+}
+
+.nombre{
+	color: #fff;
+	font-size: 110%
+}

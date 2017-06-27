@@ -1,0 +1,103 @@
+body{
+	background: #ACD3E8;
+	margin: 0px;
+}
+
+h1{
+	color: #1A1E18;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu-navegacion{
+	text-align: center;
+}
+
+li{
+	display: inline;
+}
+
+.consalto{
+	display: block;
+}
+
+.menu-navegacion a{
+	display: inline-block;
+	background: #6977BD;
+	color: #fff;
+	width: 100px;
+	height: 15px;
+	font-size: 15px;
+	padding: 10px;
+	margin: 0px 10px 0px 10px;
+}
+
+li:hover a{
+	background: black;
+}
+
+
+li.active a{
+	background: #95E5A5;
+}
+
+h1{
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
+}
+
+.rayita{
+	border:1px solid red;
+	width: 50%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.foto{
+	text-align: right;
+	padding: 0px 100px 0px 0px;
+}
+
+.infoencaja{
+	background: #FEB7D0;
+	padding: 0px;
+	border: 4px solid #000;
+	position: absolute;
+
+	top: 170px;
+	left: 30px
+}
+
+.caja{
+	display: inline-block;
+	background: #6977BD;
+	border: 4px solid #000;
+	width: 500px;
+	height: 250px;
+	font-size: 20px;
+	padding: 10px;
+	margin: 0px 0px 0px 500px;
+}
+
+.footer{
+	background: gray;
+	padding: 10px;
+}
+
+
+table, td, th{
+	border: 1px solid black;
+}
+
+th, td{
+	padding: 20px;
+}
+

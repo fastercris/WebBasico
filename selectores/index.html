@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Selectores avanzados</title>
+	<style>
+		/*selector por numero de hijo
+		elemento:nth-child(numero de hijo);{
+	
+		}
+		*/
+		span:nth-child(5){
+			background-color: red; 
+		}
+
+		span:nth-child(2n){
+			background-color: blue;
+		}
+
+		/*al primer hijo se le va a aplicar cierto estilo
+		padre>hijo{
+	
+			}*/
+
+		div > h2 {
+			background-color: orange;
+		}
+
+		img{
+			width: 20%;
+			height: 30%;
+		}
+
+		/*la etiqueta2 que esta despues de la 1 se le aplica un estilo
+		elemnto1 + elemento2{}
+		*/
+
+		div + p{
+			background-color: green;
+		}
+
+	</style>
+</head>
+<body>
+	<span>Primer span</span>
+	<span>Segundo span</span>
+	<span>Tercero span</span>
+	<span>Cuarto span</span>
+	<span>Quinto span</span>
+	<span>Sexto span</span>
+	<span>Septimo span</span>
+	<span>Octavo span</span>
+	<span>Noveno span</span>
+
+	<div>
+		<h2>soy un tanque</h2>
+		<img src="img/img.jpg">
+		<p>Peso Total: 30gr</p>
+		<p>Velocidad maxima 3km/h</p>
+		<p>Armamento principal: Cola esponjosa</p>
+	</div>
+
+	<div><!--No se le aplico lo del elemento1+elemento2 porque no es un hijo directo del div sino del a-->
+		<a><p>No tengo estilo porque...?</p></a>
+	</div>
+
+	<p>Lorem</p>
+
+	<div>
+		<h4>Soy un h4 dentro de un div</h4>
+		<p>Soy un oarrafo "p"</p>
+	</div>
+
+	<p>Soy un verde</p>
+</body>
+</html>

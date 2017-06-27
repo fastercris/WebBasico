@@ -1,0 +1,97 @@
+body{
+	background: #f1f1f1;
+	margin: 0px;
+}
+
+h1{
+	color: #fff;
+}
+
+.titulo{
+	background-color: black;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+a:hover{
+	color: #ccc;
+}
+
+.menu-navegacion{
+	text-align: center;
+}
+
+li{
+	display: inline;
+}
+
+.consalto{
+	display: block;
+}
+
+.menu-navegacion a{
+	display: inline-block;
+	background: black;
+	color: #fff;
+	width: 100px;
+	height: 15px;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0px 10px 0px 10px;
+}
+
+
+
+li:hover a{
+	background: #ccc; /*cambia el color del cuadrito al pasar el mouse*/
+}
+
+
+li.active a{ /*se cambia el color de la caja que este presionada o visitando en ese momento*/
+	background: #ccc;
+}
+
+h1{
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
+}
+
+.informacion-personal{
+	border:1px solid #ccc; /*solid para que se vea la rayita*/
+	width: 30%;
+	border-top: none;/*quitar bordes*/
+	border-left: none;
+	border-right: none;
+}
+
+.footer{
+	background: gray;
+	padding: 15px;
+}
+
+img{
+	height: 350px;
+	width: 350px;
+}
+
+.justificar{
+	text-align: justify;
+}
+
+table, td, th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	background: blue
+}
+
+th, td{
+	padding: 20px;
+}
